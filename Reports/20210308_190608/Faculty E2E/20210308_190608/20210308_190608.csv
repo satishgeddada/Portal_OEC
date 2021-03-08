@@ -1,0 +1,225 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Faculty E2E,Chrome 87.0.4280.141,Faculty Test Suite End to End,,2021-03-08 19:06:26,2021-03-08 19:10:21,3m - 54.402s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Imports,Chrome 87.0.4280.141,Faculty Imports,"Faculty, Imports",2021-03-08 19:06:28,2021-03-08 19:07:04,35.928s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:06:28,2021-03-08 19:06:31,2.502s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:06:31,2021-03-08 19:06:32,1.543s,PASSED
+"setText(findTestObject(""Faculty/Imports/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:06:32,2021-03-08 19:06:34,1.804s,PASSED
+"setEncryptedText(findTestObject(""Faculty/Imports/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:06:34,2021-03-08 19:06:35,1.389s,PASSED
+"click(findTestObject(""Faculty/Imports/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:35,2021-03-08 19:06:36,0.852s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:36,2021-03-08 19:06:38,2.023s,PASSED
+"click(findTestObject(""Faculty/Imports/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:38,2021-03-08 19:06:39,0.945s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:39,2021-03-08 19:06:40,0.923s,PASSED
+"click(findTestObject(""Faculty/Imports/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:40,2021-03-08 19:06:41,0.972s,PASSED
+delay(2),Chrome 87.0.4280.141,,,2021-03-08 19:06:41,2021-03-08 19:06:43,2.067s,PASSED
+"click(findTestObject(""Faculty/Imports/Imports""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:43,2021-03-08 19:06:44,0.888s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:06:44,2021-03-08 19:06:45,0.865s,PASSED
+"click(findTestObject(""Faculty/Imports/img_1""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:45,2021-03-08 19:06:46,0.839s,PASSED
+"focus(findTestObject(""Faculty/Imports/Course_obj""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:46,2021-03-08 19:06:46,0.624s,PASSED
+delay(2),Chrome 87.0.4280.141,,,2021-03-08 19:06:46,2021-03-08 19:06:48,2.014s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:06:48,2021-03-08 19:06:49,0.590s,PASSED
+"click(findTestObject(""Faculty/Imports/cousrse_obj_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:49,2021-03-08 19:06:50,0.819s,PASSED
+"click(findTestObject(""Faculty/Imports/course_outcome""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:50,2021-03-08 19:06:51,0.935s,PASSED
+"focus(findTestObject(""Faculty/Imports/course_outcome_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:51,2021-03-08 19:06:51,0.591s,PASSED
+delay(2),Chrome 87.0.4280.141,,,2021-03-08 19:06:51,2021-03-08 19:06:53,2.015s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:06:53,2021-03-08 19:06:54,0.621s,PASSED
+"click(findTestObject(""Faculty/Imports/course_outcome_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:54,2021-03-08 19:06:55,0.822s,PASSED
+"click(findTestObject(""Faculty/Imports/subject_exp""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:55,2021-03-08 19:06:56,0.964s,PASSED
+"focus(findTestObject(""Faculty/Imports/subject_exp_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:56,2021-03-08 19:06:56,0.592s,PASSED
+delay(2),Chrome 87.0.4280.141,,,2021-03-08 19:06:56,2021-03-08 19:06:58,2.011s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:06:58,2021-03-08 19:06:59,0.591s,PASSED
+"click(findTestObject(""Faculty/Imports/subject_exp_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:06:59,2021-03-08 19:07:00,0.817s,PASSED
+"click(findTestObject(""Faculty/Imports/a_Dashboard""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:00,2021-03-08 19:07:01,0.955s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:01,2021-03-08 19:07:02,0.993s,PASSED
+"click(findTestObject(""Faculty/Imports/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:02,2021-03-08 19:07:03,0.968s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-03-08 19:07:03,2021-03-08 19:07:04,0.774s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Notifications,Chrome 87.0.4280.141,Notifications,"Notifications, Faculty",2021-03-08 19:07:04,2021-03-08 19:07:25,21.014s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:07:04,2021-03-08 19:07:06,2.037s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:07:06,2021-03-08 19:07:07,1.383s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Notifications/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:07:07,2021-03-08 19:07:09,1.636s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Notifications/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:07:09,2021-03-08 19:07:10,1.298s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:10,2021-03-08 19:07:11,0.851s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:11,2021-03-08 19:07:13,1.296s,PASSED
+"click(findTestObject(""Faculty/Imports/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:13,2021-03-08 19:07:13,0.951s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:13,2021-03-08 19:07:14,0.907s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:14,2021-03-08 19:07:15,0.955s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:15,2021-03-08 19:07:17,1.233s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/button_View Incoming Requests""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:17,2021-03-08 19:07:18,1.320s,PASSED
+delay(1),Chrome 87.0.4280.141,,,2021-03-08 19:07:18,2021-03-08 19:07:19,1.026s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:19,2021-03-08 19:07:20,0.641s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/button_View Outgoing Requests""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:20,2021-03-08 19:07:20,0.821s,PASSED
+delay(1),Chrome 87.0.4280.141,,,2021-03-08 19:07:20,2021-03-08 19:07:21,1.017s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:21,2021-03-08 19:07:22,0.606s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:22,2021-03-08 19:07:23,0.806s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:23,2021-03-08 19:07:24,1.023s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-03-08 19:07:24,2021-03-08 19:07:25,0.761s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Profile,Chrome 87.0.4280.141,Faculty Profile,Profile,2021-03-08 19:07:25,2021-03-08 19:08:07,42.208s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:07:25,2021-03-08 19:07:26,1.264s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:07:26,2021-03-08 19:07:29,2.444s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Profile/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:07:29,2021-03-08 19:07:30,1.704s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Profile/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:07:30,2021-03-08 19:07:32,1.308s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:32,2021-03-08 19:07:33,0.816s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:33,2021-03-08 19:07:34,1.488s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:34,2021-03-08 19:07:35,0.960s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:35,2021-03-08 19:07:36,0.938s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:36,2021-03-08 19:07:37,0.943s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:37,2021-03-08 19:07:38,1.364s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Change Profile Information""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:38,2021-03-08 19:07:41,2.475s,PASSED
+"doubleClick(findTestObject(""Object Repository/Faculty/Profile/input_JNTUA No._jntuhID""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:41,2021-03-08 19:07:41,0.621s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Profile/input_JNTUA No._jntuhID""), ""123455678"")",Chrome 87.0.4280.141,,,2021-03-08 19:07:41,2021-03-08 19:07:43,1.567s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Update""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:43,2021-03-08 19:07:44,0.809s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:44,2021-03-08 19:07:45,0.937s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Contact Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:45,2021-03-08 19:07:46,0.822s,PASSED
+"click(findTestObject(""Faculty/Profile/button_Change Contact Information""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:46,2021-03-08 19:07:46,0.821s,PASSED
+"doubleClick(findTestObject(""Object Repository/Faculty/Profile/input_Mobile No_mobileNumber""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:46,2021-03-08 19:07:47,0.596s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Profile/input_Mobile No_mobileNumber""), ""09248708087"")",Chrome 87.0.4280.141,,,2021-03-08 19:07:47,2021-03-08 19:07:49,1.601s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Update Contact Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:49,2021-03-08 19:07:49,0.805s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:49,2021-03-08 19:07:50,1.027s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Book Publications""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:50,2021-03-08 19:07:51,0.822s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:51,2021-03-08 19:07:52,0.601s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Journal Publications""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:52,2021-03-08 19:07:53,0.853s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:53,2021-03-08 19:07:53,0.594s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Research Guidlance""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:53,2021-03-08 19:07:54,0.818s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:54,2021-03-08 19:07:55,0.597s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/span_ MORE""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:55,2021-03-08 19:07:55,0.822s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Workshop Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:55,2021-03-08 19:07:56,0.934s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:56,2021-03-08 19:07:57,0.839s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/span_ MORE""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:57,2021-03-08 19:07:58,0.815s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Grant Received""))",Chrome 87.0.4280.141,,,2021-03-08 19:07:58,2021-03-08 19:07:59,0.962s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:07:59,2021-03-08 19:08:00,0.827s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/span_ MORE""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:00,2021-03-08 19:08:01,0.788s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Conferences""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:01,2021-03-08 19:08:02,0.938s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:02,2021-03-08 19:08:02,0.836s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/span_ MORE""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:02,2021-03-08 19:08:03,0.800s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/button_Ph.D Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:03,2021-03-08 19:08:04,0.945s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:04,2021-03-08 19:08:05,0.825s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:05,2021-03-08 19:08:06,0.802s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:06,2021-03-08 19:08:07,0.977s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Allocated Courses,Chrome 87.0.4280.141,Allocated Courses,"Allocated Courses, Faculty",2021-03-08 19:08:07,2021-03-08 19:08:36,29.376s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:08:07,2021-03-08 19:08:09,2.142s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:08:09,2021-03-08 19:08:11,1.153s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Allocated Courses/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:08:11,2021-03-08 19:08:12,1.670s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Allocated Courses/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:08:12,2021-03-08 19:08:14,1.295s,PASSED
+"click(findTestObject(""Faculty/Imports/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:14,2021-03-08 19:08:14,0.841s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:14,2021-03-08 19:08:16,1.376s,PASSED
+"click(findTestObject(""Faculty/Imports/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:16,2021-03-08 19:08:17,0.934s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:17,2021-03-08 19:08:18,0.907s,PASSED
+"click(findTestObject(""Faculty/Imports/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:18,2021-03-08 19:08:19,0.971s,PASSED
+delay(2),Chrome 87.0.4280.141,,,2021-03-08 19:08:19,2021-03-08 19:08:21,2.018s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:21,2021-03-08 19:08:21,0.858s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/button_Reference""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:21,2021-03-08 19:08:24,2.101s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/button_Reference Books""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:24,2021-03-08 19:08:25,1.363s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/button_External Resource Links  Notes""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:25,2021-03-08 19:08:26,0.941s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:26,2021-03-08 19:08:27,0.832s,PASSED
+"focus(findTestObject(""Faculty/Allocated Courses/Ref_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:27,2021-03-08 19:08:27,0.461s,PASSED
+"click(findTestObject(""Faculty/Allocated Courses/Ref_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:27,2021-03-08 19:08:28,0.793s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/button_CO-PO Mapping""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:28,2021-03-08 19:08:29,0.966s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:29,2021-03-08 19:08:30,1.087s,PASSED
+"focus(findTestObject(""Faculty/Allocated Courses/CO-PO-Close""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:30,2021-03-08 19:08:30,0.496s,PASSED
+"click(findTestObject(""Faculty/Allocated Courses/CO-PO-Close""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:30,2021-03-08 19:08:31,0.806s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/button_Extra Class""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:31,2021-03-08 19:08:32,0.937s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:32,2021-03-08 19:08:33,0.798s,PASSED
+"focus(findTestObject(""Faculty/Allocated Courses/Extra-class-Close""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:33,2021-03-08 19:08:34,0.471s,PASSED
+"click(findTestObject(""Faculty/Allocated Courses/Extra-class-Close""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:34,2021-03-08 19:08:34,0.807s,PASSED
+"click(findTestObject(""Faculty/Allocated Courses/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:34,2021-03-08 19:08:35,0.903s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Allocated Courses/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:35,2021-03-08 19:08:36,0.953s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Course Coordinator Allocation,Chrome 87.0.4280.141,Course Coordinator Allocation,Course Coordinator Allocation,2021-03-08 19:08:36,2021-03-08 19:08:59,23.151s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:08:37,2021-03-08 19:08:39,2.742s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:08:39,2021-03-08 19:08:41,1.654s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:08:41,2021-03-08 19:08:43,1.719s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:08:43,2021-03-08 19:08:44,1.288s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:44,2021-03-08 19:08:45,0.838s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:45,2021-03-08 19:08:46,1.261s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:46,2021-03-08 19:08:47,0.943s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:47,2021-03-08 19:08:48,0.936s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Profile/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:48,2021-03-08 19:08:49,0.977s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:49,2021-03-08 19:08:50,1.074s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/button_Others""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:50,2021-03-08 19:08:51,1.242s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:51,2021-03-08 19:08:52,1.149s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/button_CO-PO Mapping""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:52,2021-03-08 19:08:53,0.834s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:53,2021-03-08 19:08:54,0.633s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/button_Question Paper Entry""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:54,2021-03-08 19:08:55,0.827s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:55,2021-03-08 19:08:55,0.608s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Course Coordinator Allocation/button_Reports""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:55,2021-03-08 19:08:56,0.809s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:08:56,2021-03-08 19:08:57,0.622s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:57,2021-03-08 19:08:58,0.808s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:08:58,2021-03-08 19:08:59,0.953s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-03-08 19:08:59,2021-03-08 19:08:59,0.754s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Class Schedule,Chrome 87.0.4280.141,Class Schedule,Class Schedule,2021-03-08 19:08:59,2021-03-08 19:09:26,26.620s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:09:00,2021-03-08 19:09:02,1.922s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:09:02,2021-03-08 19:09:04,2.033s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Class Schedule/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:09:04,2021-03-08 19:09:05,1.723s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Class Schedule/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:09:05,2021-03-08 19:09:07,1.293s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Class Schedule/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:07,2021-03-08 19:09:08,0.818s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:08,2021-03-08 19:09:09,1.269s,PASSED
+"click(findTestObject(""Faculty/Imports/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:09,2021-03-08 19:09:10,0.934s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:10,2021-03-08 19:09:11,0.909s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:11,2021-03-08 19:09:12,0.959s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Class Schedule/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:12,2021-03-08 19:09:13,1.149s,PASSED
+delay(10),Chrome 87.0.4280.141,,,2021-03-08 19:09:13,2021-03-08 19:09:23,10.009s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:23,2021-03-08 19:09:23,0.579s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:23,2021-03-08 19:09:24,0.806s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:24,2021-03-08 19:09:25,0.969s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-03-08 19:09:25,2021-03-08 19:09:26,0.784s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Mentoring,Chrome 87.0.4280.141,Mentoring,Mentoring,2021-03-08 19:09:26,2021-03-08 19:10:04,38.435s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:09:26,2021-03-08 19:09:28,1.247s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:09:28,2021-03-08 19:09:29,1.628s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Mentoring/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:09:29,2021-03-08 19:09:31,1.695s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Mentoring/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:09:31,2021-03-08 19:09:32,1.314s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:32,2021-03-08 19:09:33,0.846s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:33,2021-03-08 19:09:34,1.262s,PASSED
+"click(findTestObject(""Faculty/Imports/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:34,2021-03-08 19:09:35,0.940s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:35,2021-03-08 19:09:36,0.928s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:36,2021-03-08 19:09:37,0.984s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:37,2021-03-08 19:09:38,1.023s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Profile""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:38,2021-03-08 19:09:40,1.890s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:40,2021-03-08 19:09:41,1.031s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Education""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:41,2021-03-08 19:09:42,0.807s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:42,2021-03-08 19:09:43,0.607s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Semester Wise Marks""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:43,2021-03-08 19:09:43,0.810s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:43,2021-03-08 19:09:44,0.616s,PASSED
+"click(findTestObject(""Faculty/Mentoring/button_More Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:44,2021-03-08 19:09:45,0.828s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Course and Faculty Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:45,2021-03-08 19:09:46,0.959s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:46,2021-03-08 19:09:47,1.046s,PASSED
+"focus(findTestObject(""Faculty/Mentoring/Course and Faculty Details_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:47,2021-03-08 19:09:47,0.478s,PASSED
+"click(findTestObject(""Faculty/Mentoring/Course and Faculty Details_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:47,2021-03-08 19:09:48,0.823s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_More Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:48,2021-03-08 19:09:49,0.930s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:49,2021-03-08 19:09:50,0.838s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Student Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:50,2021-03-08 19:09:51,0.839s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:51,2021-03-08 19:09:53,2.023s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Attendance Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:53,2021-03-08 19:09:54,0.796s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:54,2021-03-08 19:09:54,0.600s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Marks Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:54,2021-03-08 19:09:55,0.783s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:55,2021-03-08 19:09:56,0.601s,PASSED
+"focus(findTestObject(""Faculty/Mentoring/Student Details_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:56,2021-03-08 19:09:56,0.490s,PASSED
+"click(findTestObject(""Faculty/Mentoring/Student Details_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:56,2021-03-08 19:09:57,0.842s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_More Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:57,2021-03-08 19:09:58,0.915s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Communication Details""))",Chrome 87.0.4280.141,,,2021-03-08 19:09:58,2021-03-08 19:09:59,0.975s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:09:59,2021-03-08 19:10:00,0.958s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_Completed""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:00,2021-03-08 19:10:01,0.797s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:10:01,2021-03-08 19:10:01,0.612s,PASSED
+"focus(findTestObject(""Faculty/Mentoring/Communication Details_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:01,2021-03-08 19:10:02,0.485s,PASSED
+"click(findTestObject(""Faculty/Mentoring/Communication Details_close""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:02,2021-03-08 19:10:03,0.810s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:03,2021-03-08 19:10:03,0.926s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:03,2021-03-08 19:10:04,0.936s,PASSED
+,,,,,,,
+Test Cases/Web/Faculty/Exam Schedule,Chrome 87.0.4280.141,Exam Schedule,Exam Schedule,2021-03-08 19:10:04,2021-03-08 19:10:21,16.113s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-03-08 19:10:05,2021-03-08 19:10:07,1.993s,PASSED
+"navigateToUrl(""https://oecfrontend.vercel.app/"")",Chrome 87.0.4280.141,,,2021-03-08 19:10:07,2021-03-08 19:10:09,1.670s,PASSED
+"setText(findTestObject(""Object Repository/Faculty/Exam Schedule/input_Faculty Login_username""), ""AITS051002"")",Chrome 87.0.4280.141,,,2021-03-08 19:10:09,2021-03-08 19:10:10,1.734s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Faculty/Exam Schedule/input_Faculty Login_password""), ""/HuGEUzXDLUt1zEZ6TwafQ=="")",Chrome 87.0.4280.141,,,2021-03-08 19:10:10,2021-03-08 19:10:12,1.297s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Exam Schedule/button_Login""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:12,2021-03-08 19:10:12,0.847s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:12,2021-03-08 19:10:14,1.285s,PASSED
+"click(findTestObject(""Faculty/Imports/div_Role ()AdminFacultyHOD""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:14,2021-03-08 19:10:15,0.964s,PASSED
+"click(findTestObject(""Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:15,2021-03-08 19:10:16,0.898s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Notifications/a_Faculty""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:16,2021-03-08 19:10:16,0.952s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Exam Schedule/img""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:16,2021-03-08 19:10:18,1.167s,PASSED
+takeScreenshot(),Chrome 87.0.4280.141,,,2021-03-08 19:10:18,2021-03-08 19:10:19,1.117s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:19,2021-03-08 19:10:20,0.794s,PASSED
+"click(findTestObject(""Object Repository/Faculty/Mentoring/button_logout""))",Chrome 87.0.4280.141,,,2021-03-08 19:10:20,2021-03-08 19:10:21,0.947s,PASSED

@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Faculty E2E" time="235.82" tests="8" failures="0" skips="0" errors="0">
+   <testsuite name="Faculty E2E" tests="8" failures="0" errors="0" time="235.82" skips="0" timestamp="2021-03-08 19:06:26" hostname="PVs - LAPTOP-OCLE0COJ" id="Test Suites/Faculty E2E">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608"/>
+         <property name="logFiles" value="C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210605147.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210609235.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210614216.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210619193.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210639651.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210642129.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210664854.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210670545.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210671966.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210673417.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210674833.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210677407.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210680021.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210682576.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210685155.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210706824.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210710152.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210713208.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210732631.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210734086.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210735526.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210736959.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210763573.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210781415.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210782823.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210784243.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210787086.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210790149.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210793021.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210794409.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210795792.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210799976.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210801387.png, C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210818818.png"/>
+         <property name="hostName" value="PVs - LAPTOP-OCLE0COJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="169.254.55.176"/>
+         <property name="sessionId" value="53ba2d776d7ab5e8a1c667fc7cc6d1fa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/Faculty/Imports" time="35.928" classname="Test Cases/Web/Faculty/Imports" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:06:28 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Imports: Test Cases/Web/Faculty/Imports
+
+2021-03-08 19:06:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:06:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:06:29 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:06:29 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:06:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:06:31 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:06:32 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Faculty/Imports/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Imports/input_Faculty Login_username'
+
+2021-03-08 19:06:34 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Imports/input_Faculty Login_username'
+
+2021-03-08 19:06:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Faculty/Imports/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Imports/input_Faculty Login_password'
+
+2021-03-08 19:06:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Imports/input_Faculty Login_password'
+
+2021-03-08 19:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/button_Login")): Object: 'Object Repository/Faculty/Imports/button_Login' is clicked on
+
+2021-03-08 19:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/button_Login' is clicked on
+
+2021-03-08 19:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/a_Faculty")): Object: 'Object Repository/Faculty/Imports/a_Faculty' is clicked on
+
+2021-03-08 19:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/a_Faculty' is clicked on
+
+2021-03-08 19:06:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-08 19:06:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-08 19:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/Imports")): Object: 'Object Repository/Faculty/Imports/Imports' is clicked on
+
+2021-03-08 19:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/Imports' is clicked on
+
+2021-03-08 19:06:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:06:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210605147.png]]
+
+2021-03-08 19:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/img_1")): Object: 'Object Repository/Faculty/Imports/img_1' is clicked on
+
+2021-03-08 19:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/img_1' is clicked on
+
+2021-03-08 19:06:46 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Imports/Course_obj")): Object: 'Object Repository/Faculty/Imports/Course_obj' is focused
+
+2021-03-08 19:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/Course_obj' is focused
+
+2021-03-08 19:06:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-08 19:06:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-08 19:06:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:06:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210609235.png]]
+
+2021-03-08 19:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/cousrse_obj_close")): Object: 'Object Repository/Faculty/Imports/cousrse_obj_close' is clicked on
+
+2021-03-08 19:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/cousrse_obj_close' is clicked on
+
+2021-03-08 19:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/course_outcome")): Object: 'Object Repository/Faculty/Imports/course_outcome' is clicked on
+
+2021-03-08 19:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/course_outcome' is clicked on
+
+2021-03-08 19:06:51 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Imports/course_outcome_close")): Object: 'Object Repository/Faculty/Imports/course_outcome_close' is focused
+
+2021-03-08 19:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/course_outcome_close' is focused
+
+2021-03-08 19:06:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-08 19:06:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-08 19:06:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:06:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210614216.png]]
+
+2021-03-08 19:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/course_outcome_close")): Object: 'Object Repository/Faculty/Imports/course_outcome_close' is clicked on
+
+2021-03-08 19:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/course_outcome_close' is clicked on
+
+2021-03-08 19:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/subject_exp")): Object: 'Object Repository/Faculty/Imports/subject_exp' is clicked on
+
+2021-03-08 19:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/subject_exp' is clicked on
+
+2021-03-08 19:06:56 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Imports/subject_exp_close")): Object: 'Object Repository/Faculty/Imports/subject_exp_close' is focused
+
+2021-03-08 19:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/subject_exp_close' is focused
+
+2021-03-08 19:06:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-08 19:06:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-08 19:06:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:06:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210619193.png]]
+
+2021-03-08 19:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/subject_exp_close")): Object: 'Object Repository/Faculty/Imports/subject_exp_close' is clicked on
+
+2021-03-08 19:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/subject_exp_close' is clicked on
+
+2021-03-08 19:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/a_Dashboard")): Object: 'Object Repository/Faculty/Imports/a_Dashboard' is clicked on
+
+2021-03-08 19:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/a_Dashboard' is clicked on
+
+2021-03-08 19:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/button_logout")): Object: 'Object Repository/Faculty/Imports/button_logout' is clicked on
+
+2021-03-08 19:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/button_logout' is clicked on
+
+2021-03-08 19:07:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-08 19:07:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Notifications" time="21.014" classname="Test Cases/Web/Faculty/Notifications" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:07:04 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Notifications: Test Cases/Web/Faculty/Notifications
+
+2021-03-08 19:07:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:07:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:07:04 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:07:04 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:07:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:07:06 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:07:07 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Notifications/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Notifications/input_Faculty Login_username'
+
+2021-03-08 19:07:09 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Notifications/input_Faculty Login_username'
+
+2021-03-08 19:07:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Notifications/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Notifications/input_Faculty Login_password'
+
+2021-03-08 19:07:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Notifications/input_Faculty Login_password'
+
+2021-03-08 19:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/button_Login")): Object: 'Object Repository/Faculty/Notifications/button_Login' is clicked on
+
+2021-03-08 19:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/button_Login' is clicked on
+
+2021-03-08 19:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/a_Faculty")): Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:07:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/img")): Object: 'Object Repository/Faculty/Notifications/img' is clicked on
+
+2021-03-08 19:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/img' is clicked on
+
+2021-03-08 19:07:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/button_View Incoming Requests")): Object: 'Object Repository/Faculty/Notifications/button_View Incoming Requests' is clicked on
+
+2021-03-08 19:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/button_View Incoming Requests' is clicked on
+
+2021-03-08 19:07:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-08 19:07:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-08 19:07:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210639651.png]]
+
+2021-03-08 19:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/button_View Outgoing Requests")): Object: 'Object Repository/Faculty/Notifications/button_View Outgoing Requests' is clicked on
+
+2021-03-08 19:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/button_View Outgoing Requests' is clicked on
+
+2021-03-08 19:07:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-08 19:07:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-08 19:07:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210642129.png]]
+
+2021-03-08 19:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/button_logout")): Object: 'Object Repository/Faculty/Notifications/button_logout' is clicked on
+
+2021-03-08 19:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/button_logout' is clicked on
+
+2021-03-08 19:07:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-08 19:07:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Profile" time="42.208" classname="Test Cases/Web/Faculty/Profile" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:07:25 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Profile: Test Cases/Web/Faculty/Profile
+
+2021-03-08 19:07:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:07:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:07:25 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:07:25 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:07:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:07:26 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:07:29 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:07:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Profile/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Profile/input_Faculty Login_username'
+
+2021-03-08 19:07:30 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Profile/input_Faculty Login_username'
+
+2021-03-08 19:07:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Profile/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Profile/input_Faculty Login_password'
+
+2021-03-08 19:07:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Profile/input_Faculty Login_password'
+
+2021-03-08 19:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Login")): Object: 'Object Repository/Faculty/Profile/button_Login' is clicked on
+
+2021-03-08 19:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Login' is clicked on
+
+2021-03-08 19:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/a_Faculty")): Object: 'Object Repository/Faculty/Profile/a_Faculty' is clicked on
+
+2021-03-08 19:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/a_Faculty' is clicked on
+
+2021-03-08 19:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/img")): Object: 'Object Repository/Faculty/Profile/img' is clicked on
+
+2021-03-08 19:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/img' is clicked on
+
+2021-03-08 19:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Change Profile Information")): Object: 'Object Repository/Faculty/Profile/button_Change Profile Information' is clicked on
+
+2021-03-08 19:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Change Profile Information' is clicked on
+
+2021-03-08 19:07:41 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Faculty/Profile/input_JNTUA No._jntuhID")): Object: 'Object Repository/Faculty/Profile/input_JNTUA No._jntuhID' is double clicked on
+
+2021-03-08 19:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/input_JNTUA No._jntuhID' is double clicked on
+
+2021-03-08 19:07:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Profile/input_JNTUA No._jntuhID"), "123455678"): Text '123455678' is set on object 'Object Repository/Faculty/Profile/input_JNTUA No._jntuhID'
+
+2021-03-08 19:07:43 - [MESSAGE][PASSED] - Text '123455678' is set on object 'Object Repository/Faculty/Profile/input_JNTUA No._jntuhID'
+
+2021-03-08 19:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Update")): Object: 'Object Repository/Faculty/Profile/button_Update' is clicked on
+
+2021-03-08 19:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Update' is clicked on
+
+2021-03-08 19:07:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210664854.png]]
+
+2021-03-08 19:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Contact Details")): Object: 'Object Repository/Faculty/Profile/button_Contact Details' is clicked on
+
+2021-03-08 19:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Contact Details' is clicked on
+
+2021-03-08 19:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Profile/button_Change Contact Information")): Object: 'Object Repository/Faculty/Profile/button_Change Contact Information' is clicked on
+
+2021-03-08 19:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Change Contact Information' is clicked on
+
+2021-03-08 19:07:46 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Faculty/Profile/input_Mobile No_mobileNumber")): Object: 'Object Repository/Faculty/Profile/input_Mobile No_mobileNumber' is double clicked on
+
+2021-03-08 19:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/input_Mobile No_mobileNumber' is double clicked on
+
+2021-03-08 19:07:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Profile/input_Mobile No_mobileNumber"), "09248708087"): Text '09248708087' is set on object 'Object Repository/Faculty/Profile/input_Mobile No_mobileNumber'
+
+2021-03-08 19:07:49 - [MESSAGE][PASSED] - Text '09248708087' is set on object 'Object Repository/Faculty/Profile/input_Mobile No_mobileNumber'
+
+2021-03-08 19:07:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Update Contact Details")): Object: 'Object Repository/Faculty/Profile/button_Update Contact Details' is clicked on
+
+2021-03-08 19:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Update Contact Details' is clicked on
+
+2021-03-08 19:07:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210670545.png]]
+
+2021-03-08 19:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Book Publications")): Object: 'Object Repository/Faculty/Profile/button_Book Publications' is clicked on
+
+2021-03-08 19:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Book Publications' is clicked on
+
+2021-03-08 19:07:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210671966.png]]
+
+2021-03-08 19:07:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Journal Publications")): Object: 'Object Repository/Faculty/Profile/button_Journal Publications' is clicked on
+
+2021-03-08 19:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Journal Publications' is clicked on
+
+2021-03-08 19:07:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210673417.png]]
+
+2021-03-08 19:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Research Guidlance")): Object: 'Object Repository/Faculty/Profile/button_Research Guidlance' is clicked on
+
+2021-03-08 19:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Research Guidlance' is clicked on
+
+2021-03-08 19:07:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210674833.png]]
+
+2021-03-08 19:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/span_ MORE")): Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Workshop Details")): Object: 'Object Repository/Faculty/Profile/button_Workshop Details' is clicked on
+
+2021-03-08 19:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Workshop Details' is clicked on
+
+2021-03-08 19:07:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:07:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210677407.png]]
+
+2021-03-08 19:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/span_ MORE")): Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Grant Received")): Object: 'Object Repository/Faculty/Profile/button_Grant Received' is clicked on
+
+2021-03-08 19:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Grant Received' is clicked on
+
+2021-03-08 19:07:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210680021.png]]
+
+2021-03-08 19:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/span_ MORE")): Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Conferences")): Object: 'Object Repository/Faculty/Profile/button_Conferences' is clicked on
+
+2021-03-08 19:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Conferences' is clicked on
+
+2021-03-08 19:08:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210682576.png]]
+
+2021-03-08 19:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/span_ MORE")): Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/span_ MORE' is clicked on
+
+2021-03-08 19:08:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/button_Ph.D Details")): Object: 'Object Repository/Faculty/Profile/button_Ph.D Details' is clicked on
+
+2021-03-08 19:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/button_Ph.D Details' is clicked on
+
+2021-03-08 19:08:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210685155.png]]
+
+2021-03-08 19:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_logout")): Object: 'Object Repository/Faculty/Mentoring/button_logout' is clicked on
+
+2021-03-08 19:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Allocated Courses" time="29.376" classname="Test Cases/Web/Faculty/Allocated Courses" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:08:07 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Allocated Courses: Test Cases/Web/Faculty/Allocated Courses
+
+2021-03-08 19:08:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:08:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-08 19:08:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:08:08 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:08:08 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:08:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:08:09 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:08:11 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:08:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Allocated Courses/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Allocated Courses/input_Faculty Login_username'
+
+2021-03-08 19:08:12 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Allocated Courses/input_Faculty Login_username'
+
+2021-03-08 19:08:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Allocated Courses/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Allocated Courses/input_Faculty Login_password'
+
+2021-03-08 19:08:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Allocated Courses/input_Faculty Login_password'
+
+2021-03-08 19:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/button_Login")): Object: 'Object Repository/Faculty/Imports/button_Login' is clicked on
+
+2021-03-08 19:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/button_Login' is clicked on
+
+2021-03-08 19:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:08:18 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/a_Faculty")): Object: 'Object Repository/Faculty/Imports/a_Faculty' is clicked on
+
+2021-03-08 19:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/a_Faculty' is clicked on
+
+2021-03-08 19:08:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-08 19:08:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-08 19:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/img")): Object: 'Object Repository/Faculty/Allocated Courses/img' is clicked on
+
+2021-03-08 19:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/img' is clicked on
+
+2021-03-08 19:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/button_Reference")): Object: 'Object Repository/Faculty/Allocated Courses/button_Reference' is clicked on
+
+2021-03-08 19:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/button_Reference' is clicked on
+
+2021-03-08 19:08:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/button_Reference Books")): Object: 'Object Repository/Faculty/Allocated Courses/button_Reference Books' is clicked on
+
+2021-03-08 19:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/button_Reference Books' is clicked on
+
+2021-03-08 19:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/button_External Resource Links  Notes")): Object: 'Object Repository/Faculty/Allocated Courses/button_External Resource Links  Notes' is clicked on
+
+2021-03-08 19:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/button_External Resource Links  Notes' is clicked on
+
+2021-03-08 19:08:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210706824.png]]
+
+2021-03-08 19:08:27 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Allocated Courses/Ref_close")): Object: 'Object Repository/Faculty/Allocated Courses/Ref_close' is focused
+
+2021-03-08 19:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/Ref_close' is focused
+
+2021-03-08 19:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Allocated Courses/Ref_close")): Object: 'Object Repository/Faculty/Allocated Courses/Ref_close' is clicked on
+
+2021-03-08 19:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/Ref_close' is clicked on
+
+2021-03-08 19:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/button_CO-PO Mapping")): Object: 'Object Repository/Faculty/Allocated Courses/button_CO-PO Mapping' is clicked on
+
+2021-03-08 19:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/button_CO-PO Mapping' is clicked on
+
+2021-03-08 19:08:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210710152.png]]
+
+2021-03-08 19:08:30 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Allocated Courses/CO-PO-Close")): Object: 'Object Repository/Faculty/Allocated Courses/CO-PO-Close' is focused
+
+2021-03-08 19:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/CO-PO-Close' is focused
+
+2021-03-08 19:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Allocated Courses/CO-PO-Close")): Object: 'Object Repository/Faculty/Allocated Courses/CO-PO-Close' is clicked on
+
+2021-03-08 19:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/CO-PO-Close' is clicked on
+
+2021-03-08 19:08:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/button_Extra Class")): Object: 'Object Repository/Faculty/Allocated Courses/button_Extra Class' is clicked on
+
+2021-03-08 19:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/button_Extra Class' is clicked on
+
+2021-03-08 19:08:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210713208.png]]
+
+2021-03-08 19:08:33 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Allocated Courses/Extra-class-Close")): Object: 'Object Repository/Faculty/Allocated Courses/Extra-class-Close' is focused
+
+2021-03-08 19:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/Extra-class-Close' is focused
+
+2021-03-08 19:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Allocated Courses/Extra-class-Close")): Object: 'Object Repository/Faculty/Allocated Courses/Extra-class-Close' is clicked on
+
+2021-03-08 19:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/Extra-class-Close' is clicked on
+
+2021-03-08 19:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Allocated Courses/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Allocated Courses/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Allocated Courses/button_logout")): Object: 'Object Repository/Faculty/Allocated Courses/button_logout' is clicked on
+
+2021-03-08 19:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Allocated Courses/button_logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Course Coordinator Allocation" time="23.151" classname="Test Cases/Web/Faculty/Course Coordinator Allocation" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:08:36 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Course Coordinator Allocation: Test Cases/Web/Faculty/Course Coordinator Allocation
+
+2021-03-08 19:08:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:08:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-08 19:08:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:08:37 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:08:37 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:08:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:08:39 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:08:41 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_username'
+
+2021-03-08 19:08:43 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_username'
+
+2021-03-08 19:08:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_password'
+
+2021-03-08 19:08:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Course Coordinator Allocation/input_Faculty Login_password'
+
+2021-03-08 19:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/button_Login")): Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Login' is clicked on
+
+2021-03-08 19:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Login' is clicked on
+
+2021-03-08 19:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:08:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Profile/a_Faculty")): Object: 'Object Repository/Faculty/Profile/a_Faculty' is clicked on
+
+2021-03-08 19:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Profile/a_Faculty' is clicked on
+
+2021-03-08 19:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/img")): Object: 'Object Repository/Faculty/Course Coordinator Allocation/img' is clicked on
+
+2021-03-08 19:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Course Coordinator Allocation/img' is clicked on
+
+2021-03-08 19:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/button_Others")): Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Others' is clicked on
+
+2021-03-08 19:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Others' is clicked on
+
+2021-03-08 19:08:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210732631.png]]
+
+2021-03-08 19:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/button_CO-PO Mapping")): Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_CO-PO Mapping' is clicked on
+
+2021-03-08 19:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_CO-PO Mapping' is clicked on
+
+2021-03-08 19:08:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210734086.png]]
+
+2021-03-08 19:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/button_Question Paper Entry")): Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Question Paper Entry' is clicked on
+
+2021-03-08 19:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Question Paper Entry' is clicked on
+
+2021-03-08 19:08:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210735526.png]]
+
+2021-03-08 19:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Course Coordinator Allocation/button_Reports")): Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Reports' is clicked on
+
+2021-03-08 19:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Course Coordinator Allocation/button_Reports' is clicked on
+
+2021-03-08 19:08:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:08:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210736959.png]]
+
+2021-03-08 19:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/button_logout")): Object: 'Object Repository/Faculty/Notifications/button_logout' is clicked on
+
+2021-03-08 19:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/button_logout' is clicked on
+
+2021-03-08 19:08:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-08 19:08:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Class Schedule" time="26.62" classname="Test Cases/Web/Faculty/Class Schedule" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:08:59 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Class Schedule: Test Cases/Web/Faculty/Class Schedule
+
+2021-03-08 19:09:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:09:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:09:00 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:09:00 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:09:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:09:02 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:09:04 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Class Schedule/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Class Schedule/input_Faculty Login_username'
+
+2021-03-08 19:09:05 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Class Schedule/input_Faculty Login_username'
+
+2021-03-08 19:09:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Class Schedule/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Class Schedule/input_Faculty Login_password'
+
+2021-03-08 19:09:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Class Schedule/input_Faculty Login_password'
+
+2021-03-08 19:09:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Class Schedule/button_Login")): Object: 'Object Repository/Faculty/Class Schedule/button_Login' is clicked on
+
+2021-03-08 19:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Class Schedule/button_Login' is clicked on
+
+2021-03-08 19:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/a_Faculty")): Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:09:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Class Schedule/img")): Object: 'Object Repository/Faculty/Class Schedule/img' is clicked on
+
+2021-03-08 19:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Class Schedule/img' is clicked on
+
+2021-03-08 19:09:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-03-08 19:09:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-03-08 19:09:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210763573.png]]
+
+2021-03-08 19:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/button_logout")): Object: 'Object Repository/Faculty/Notifications/button_logout' is clicked on
+
+2021-03-08 19:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/button_logout' is clicked on
+
+2021-03-08 19:09:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-08 19:09:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Mentoring" time="38.435" classname="Test Cases/Web/Faculty/Mentoring" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:09:26 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Mentoring: Test Cases/Web/Faculty/Mentoring
+
+2021-03-08 19:09:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:09:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:09:26 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:09:26 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:09:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:09:28 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:09:29 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Mentoring/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Mentoring/input_Faculty Login_username'
+
+2021-03-08 19:09:31 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Mentoring/input_Faculty Login_username'
+
+2021-03-08 19:09:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Mentoring/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Mentoring/input_Faculty Login_password'
+
+2021-03-08 19:09:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Mentoring/input_Faculty Login_password'
+
+2021-03-08 19:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Login")): Object: 'Object Repository/Faculty/Mentoring/button_Login' is clicked on
+
+2021-03-08 19:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Login' is clicked on
+
+2021-03-08 19:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/a_Faculty")): Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/img")): Object: 'Object Repository/Faculty/Mentoring/img' is clicked on
+
+2021-03-08 19:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/img' is clicked on
+
+2021-03-08 19:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Profile")): Object: 'Object Repository/Faculty/Mentoring/button_Profile' is clicked on
+
+2021-03-08 19:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Profile' is clicked on
+
+2021-03-08 19:09:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210781415.png]]
+
+2021-03-08 19:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Education")): Object: 'Object Repository/Faculty/Mentoring/button_Education' is clicked on
+
+2021-03-08 19:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Education' is clicked on
+
+2021-03-08 19:09:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210782823.png]]
+
+2021-03-08 19:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Semester Wise Marks")): Object: 'Object Repository/Faculty/Mentoring/button_Semester Wise Marks' is clicked on
+
+2021-03-08 19:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Semester Wise Marks' is clicked on
+
+2021-03-08 19:09:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210784243.png]]
+
+2021-03-08 19:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Mentoring/button_More Details")): Object: 'Object Repository/Faculty/Mentoring/button_More Details' is clicked on
+
+2021-03-08 19:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_More Details' is clicked on
+
+2021-03-08 19:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Course and Faculty Details")): Object: 'Object Repository/Faculty/Mentoring/button_Course and Faculty Details' is clicked on
+
+2021-03-08 19:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Course and Faculty Details' is clicked on
+
+2021-03-08 19:09:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210787086.png]]
+
+2021-03-08 19:09:47 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Mentoring/Course and Faculty Details_close")): Object: 'Object Repository/Faculty/Mentoring/Course and Faculty Details_close' is focused
+
+2021-03-08 19:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/Course and Faculty Details_close' is focused
+
+2021-03-08 19:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Mentoring/Course and Faculty Details_close")): Object: 'Object Repository/Faculty/Mentoring/Course and Faculty Details_close' is clicked on
+
+2021-03-08 19:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/Course and Faculty Details_close' is clicked on
+
+2021-03-08 19:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_More Details")): Object: 'Object Repository/Faculty/Mentoring/button_More Details' is clicked on
+
+2021-03-08 19:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_More Details' is clicked on
+
+2021-03-08 19:09:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210790149.png]]
+
+2021-03-08 19:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Student Details")): Object: 'Object Repository/Faculty/Mentoring/button_Student Details' is clicked on
+
+2021-03-08 19:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Student Details' is clicked on
+
+2021-03-08 19:09:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210793021.png]]
+
+2021-03-08 19:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Attendance Details")): Object: 'Object Repository/Faculty/Mentoring/button_Attendance Details' is clicked on
+
+2021-03-08 19:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Attendance Details' is clicked on
+
+2021-03-08 19:09:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210794409.png]]
+
+2021-03-08 19:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Marks Details")): Object: 'Object Repository/Faculty/Mentoring/button_Marks Details' is clicked on
+
+2021-03-08 19:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Marks Details' is clicked on
+
+2021-03-08 19:09:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:09:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210795792.png]]
+
+2021-03-08 19:09:56 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Mentoring/Student Details_close")): Object: 'Object Repository/Faculty/Mentoring/Student Details_close' is focused
+
+2021-03-08 19:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/Student Details_close' is focused
+
+2021-03-08 19:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Mentoring/Student Details_close")): Object: 'Object Repository/Faculty/Mentoring/Student Details_close' is clicked on
+
+2021-03-08 19:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/Student Details_close' is clicked on
+
+2021-03-08 19:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_More Details")): Object: 'Object Repository/Faculty/Mentoring/button_More Details' is clicked on
+
+2021-03-08 19:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_More Details' is clicked on
+
+2021-03-08 19:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Communication Details")): Object: 'Object Repository/Faculty/Mentoring/button_Communication Details' is clicked on
+
+2021-03-08 19:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Communication Details' is clicked on
+
+2021-03-08 19:09:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:10:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210799976.png]]
+
+2021-03-08 19:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_Completed")): Object: 'Object Repository/Faculty/Mentoring/button_Completed' is clicked on
+
+2021-03-08 19:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_Completed' is clicked on
+
+2021-03-08 19:10:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:10:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210801387.png]]
+
+2021-03-08 19:10:01 - [TEST_STEP][PASSED] - focus(findTestObject("Faculty/Mentoring/Communication Details_close")): Object: 'Object Repository/Faculty/Mentoring/Communication Details_close' is focused
+
+2021-03-08 19:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/Communication Details_close' is focused
+
+2021-03-08 19:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Mentoring/Communication Details_close")): Object: 'Object Repository/Faculty/Mentoring/Communication Details_close' is clicked on
+
+2021-03-08 19:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/Communication Details_close' is clicked on
+
+2021-03-08 19:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_logout")): Object: 'Object Repository/Faculty/Mentoring/button_logout' is clicked on
+
+2021-03-08 19:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Faculty/Exam Schedule" time="16.113" classname="Test Cases/Web/Faculty/Exam Schedule" status="PASSED">
+         <system-out><![CDATA[2021-03-08 19:10:04 - [TEST_CASE][PASSED] - Test Cases/Web/Faculty/Exam Schedule: Test Cases/Web/Faculty/Exam Schedule
+
+2021-03-08 19:10:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-08 19:10:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-08 19:10:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-08 19:10:06 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --start-maximized]']
+
+2021-03-08 19:10:06 - [MESSAGE][INFO] - Action delay is set to 400 milliseconds
+
+2021-03-08 19:10:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-08 19:10:07 - [TEST_STEP][PASSED] - navigateToUrl("https://oecfrontend.vercel.app/"): Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:10:09 - [MESSAGE][PASSED] - Navigate to 'https://oecfrontend.vercel.app/' successfully
+
+2021-03-08 19:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Faculty/Exam Schedule/input_Faculty Login_username"), "AITS051002"): Text 'AITS051002' is set on object 'Object Repository/Faculty/Exam Schedule/input_Faculty Login_username'
+
+2021-03-08 19:10:10 - [MESSAGE][PASSED] - Text 'AITS051002' is set on object 'Object Repository/Faculty/Exam Schedule/input_Faculty Login_username'
+
+2021-03-08 19:10:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Faculty/Exam Schedule/input_Faculty Login_password"), "/HuGEUzXDLUt1zEZ6TwafQ=="): Text ****** has been set on object 'Object Repository/Faculty/Exam Schedule/input_Faculty Login_password'
+
+2021-03-08 19:10:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Faculty/Exam Schedule/input_Faculty Login_password'
+
+2021-03-08 19:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Exam Schedule/button_Login")): Object: 'Object Repository/Faculty/Exam Schedule/button_Login' is clicked on
+
+2021-03-08 19:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Exam Schedule/button_Login' is clicked on
+
+2021-03-08 19:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/div_Role ()AdminFacultyHOD")): Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/div_Role ()AdminFacultyHOD' is clicked on
+
+2021-03-08 19:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b")): Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Imports/svg_Dr PC Senthil Mahesh_svg-inline--fa fa-_fb601b' is clicked on
+
+2021-03-08 19:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Notifications/a_Faculty")): Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Notifications/a_Faculty' is clicked on
+
+2021-03-08 19:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Exam Schedule/img")): Object: 'Object Repository/Faculty/Exam Schedule/img' is clicked on
+
+2021-03-08 19:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Exam Schedule/img' is clicked on
+
+2021-03-08 19:10:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-08 19:10:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PVs\\Katalon Studio\\Portal_OEC\\Reports\\20210308_190608\\Faculty E2E\\20210308_190608\\1615210818818.png]]
+
+2021-03-08 19:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97")): Object: 'Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/svg_Dr. P.C. Senthil Mahesh_svg-inline--fa _bc1b97' is clicked on
+
+2021-03-08 19:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Faculty/Mentoring/button_logout")): Object: 'Object Repository/Faculty/Mentoring/button_logout' is clicked on
+
+2021-03-08 19:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Faculty/Mentoring/button_logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-08 19:06:26 - [TEST_SUITE][PASSED] - Faculty E2E: Test Cases/Web/Faculty/Exam Schedule]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

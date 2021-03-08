@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Allocated Courses</description>
+   <name>Allocated Courses</name>
+   <tag>Allocated Courses, Faculty</tag>
+   <comment></comment>
+   <testCaseGuid>d77a82d9-0b81-4f31-b5c5-278da0b9d74b</testCaseGuid>
+</TestCaseEntity>
